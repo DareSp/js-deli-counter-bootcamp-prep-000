@@ -26,5 +26,5 @@ function currentLine(line){
       }
     }
   }
-  
+  return lineList
 }
