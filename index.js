@@ -19,7 +19,10 @@ function currentLine(line){
   }else{
     var lineList = "The line is currently: "
     for(var i=1; i<=line.length; i++){
-      lineList += `${i}. ${line[0]}`
+      if(i<line.length){
+        
+      }
+      lineList += `${i}. ${line[0]},`
     }
   }
   
